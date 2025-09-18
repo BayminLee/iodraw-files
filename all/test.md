@@ -9,7 +9,6 @@ flowchart TD
     F --> G[指定通用目标架构<br>生成兼容性镜像]
     G --> H{在任意ARMv8<br>CPU运行?}
     H --✅ 是 --> I[成功运行]
-
     subgraph Z [构建关键配置]
         J[使用多架构构建工具<br>(docker buildx)]
         K[选择通用目标平台<br>linux/arm64]
