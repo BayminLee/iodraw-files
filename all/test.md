@@ -16,6 +16,5 @@ flowchart TD
         M[使用通用基础镜像]
         J --- K --- L --- M
     end
-
     F --> Z
 ```
